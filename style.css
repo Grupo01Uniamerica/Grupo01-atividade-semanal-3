@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    margin: 0%;
+}
+
+header{
+    height: 144px;
+    background:linear-gradient(190deg, #D4E7FE -15.24%, #FFFFFF 78.85%);
+    display: flex;
+    align-items: center;
+    font-family: 'poppins';
+
+}
+
+#icone{
+    position: relative;
+    left: 10%;
+    width: 50px;
+}
+
+li{
+    left: 47%;
+    position: relative;
+    display: inline;
+    margin-right: 45px;
+    color: #656464;
+}
+
+span{
+   color: #2B2B39;
+}
+
+#botaoheader{
+    position: relative;
+    justify-content: flex-end;
+    left: 44%;
+    background-color: #217BF4;
+    padding: 1%;
+    padding-top: 1.2% ;
+    padding-bottom: 1.2%;
+    padding-left: 2.7%;
+    padding-right: 2.7%;
+    border-radius: 14px;
+}
+
+#button{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#netbook{
+    position: relative;
+    left: 11%;
+    color:  #2B2B39;
+}
+.home{
+    height: 60vw;
+    background:linear-gradient(311.76deg, #D4E7FE -15.24%, #FFFFFF 78.85%);
+}
+
+#pessoashome{
+    position: relative;
+    justify-content: flex-end;
+    left: 45%;
+}
+
