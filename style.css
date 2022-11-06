@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 
+
+html{
+
+    font-family: 'inter';
+
+}
 body{
     margin: 0%;
+   
 }
 
 header{
@@ -57,6 +64,7 @@ span{
 .home{
     height: 60vw;
     background:linear-gradient(311.76deg, #D4E7FE -15.24%, #FFFFFF 78.85%);
+    font-family: 'Inter';
 }
 
 #pessoashome{
@@ -67,7 +75,6 @@ span{
 
 #textogrande{
     position: relative;
-    font-family: 'Inter';
     left: 10%;
     font-size: 40px;
     top:-52.5%;
@@ -75,7 +82,6 @@ span{
 
 #subtexto{
     position: relative;
-    font-family: 'Inter';
     left: 10%;
     top: -55.5%;
     font-weight: 400;
@@ -85,7 +91,18 @@ span{
 }
 
 #botaohome{
+    position: relative;
     background-color: #217BF4;
+    padding-top: 1.2% ;
+    padding-bottom: 1.2%;
+    padding-left: 2.7%;
+    border-radius: 14px;
+
+}
+
+#doisbotao{
+    color: #FFFFFF; 
+    text-decoration: none;
 }
 
 .aboutus{
@@ -146,3 +163,459 @@ span{
     font-size: 16px;
     line-height: 28px;
 }
+
+.listaaboutus{
+    position: relative;
+    display: grid;
+    justify-content: flex-start;
+    top: 25%;
+    left: 4.5%;
+}
+
+#l1{
+    color:#171648;
+}
+#l2{
+    color: #171648;
+    top: 90%;
+}
+#l3{
+   color: #171648;
+   top: 200%;
+}
+
+
+
+#valuableteam{
+    
+    
+    font-size: 2.5vh;
+    color:#217BF4;
+    position: relative;
+    top: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#activemembers{
+
+    
+    font-size: 4vh;  
+    
+    font-weight: 700;
+    position: relative; 
+    display: flex;    
+  
+    align-items: center;
+    justify-content: center;
+    top: 5vh;
+
+ 
+   
+    color:#0A093D;
+}
+
+#whenan{
+    position: relative; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    bottom: 5vh;
+
+}
+
+.bloco{
+display: flex;
+width: 71.5vw;
+height: 5vw;
+}
+
+#opc{
+
+    position: relative; 
+   
+    
+    width: 51vh;
+    height: 8vh;
+    background: #f2f7fe;
+    
+    bottom: 2vh;
+    left: 71vh;
+    border-radius: 20px;
+    
+}
+
+#txtopc{
+
+position: relative;
+word-spacing: 13vh;
+left:3vh;
+top:1vh;
+}
+
+.blocopessoa1{
+
+    display: flex;
+    width: 71.5vw;
+    height: 25vw;
+
+
+
+}
+
+#bloco1{
+
+    position: relative; 
+   
+    
+    width: 30vh;
+    height: 30vh;
+    background: #FFFFFF;
+    
+    bottom: 2vh;
+    left:20vh;
+    border-radius: 20px;
+
+}
+
+
+#img1{
+
+    position: relative;
+   
+    left:7vh;
+    top:3vh;
+
+
+}
+
+#txt1{
+
+color: #2F2C4A;
+font-size: 2.3vh;
+position:relative;
+
+
+
+}
+
+#a1{
+
+    color: black;
+    font-size: 1.5vh;
+    position:relative;
+    left: 4vh;
+    bottom: 2vh;
+}
+
+
+#bloco2{
+
+    position: relative; 
+   
+    
+    width: 30vh;
+    height: 30vh;
+    background: #FFFFFF
+    ;
+    
+    bottom: 2vh;
+    left:30vh;
+    border-radius: 20px;
+
+}
+
+#img2{
+
+    position: relative;
+   
+    left:7vh;
+    top:3vh;
+
+
+}
+
+#txt2{
+
+color: #2F2C4A;
+font-size: 2.3vh;
+position:relative;
+
+
+
+}
+
+#a2{
+
+    color: black;
+    font-size: 1.5vh;
+    position:relative;
+    left: 4vh;
+    bottom: 2vh;
+}
+
+#bloco3{
+
+    position: relative; 
+   
+    
+    width: 30vh;
+    height: 30vh;
+    background: #FFFFFF
+    ;
+    
+    bottom: 2vh;
+    left:40vh;
+    border-radius: 20px;
+
+}
+
+#img3{
+
+    position: relative;
+   
+    left:7vh;
+    top:3vh;
+
+
+}
+
+#txt3{
+
+color: #2F2C4A;
+font-size: 2.3vh;
+position:relative;
+
+
+
+}
+
+#a3{
+
+    color: black;
+    font-size: 1.5vh;
+    position:relative;
+    left: 4vh;
+    bottom: 2vh;
+}
+
+
+
+#bloco4{
+
+    position: relative; 
+   
+    
+    width: 30vh;
+    height: 30vh;
+    background: #FFFFFF
+    ;
+    
+    bottom: 2vh;
+    left:50vh;
+    border-radius: 20px;
+
+}
+
+#img4{
+
+    position: relative;
+   
+    left:7vh;
+    top:3vh;
+
+
+}
+
+#txt4{
+
+color: #2F2C4A;
+font-size: 2.3vh;
+position:relative;
+left: 2.5vh;
+
+
+}
+
+#a4{
+
+    color: black;
+    font-size: 1.5vh;
+    position:relative;
+    left: 4vh;
+    bottom: 2vh;
+}
+
+
+
+footer{
+
+    background-color: #2B2B39;
+    height: 40vh;
+   
+    
+}
+
+#Homefooter{
+    color: black;
+    position: relative;
+    right: 40%;
+    font-size: 15px;
+    list-style-type: none;
+    top:20%;
+    
+}
+#Homefooter li{
+
+    color: white;
+    display: grid;
+    margin-top: 2%;
+}
+
+
+
+#Resources li {
+   
+    
+    
+    
+    
+    color: white;
+    margin-top: 2%;
+    
+    display:grid;
+    
+}
+
+#Resources{
+    position: relative;
+    right: 30%;
+    bottom:56%;
+    list-style-type: none;
+    font-size: 15px;
+}
+
+
+
+#Community li {
+   
+    
+    
+    
+    
+    color: white;
+    margin-top: 2%;
+    display:grid;
+    
+}
+
+#Community{
+    position: relative;
+    right: 20%;
+    top: -132%;
+    list-style-type: none;
+    font-size: 15px;
+}
+
+#MainL li {
+   
+    
+    
+    
+    
+    color: white;
+    margin-top: 2%;
+    display:grid;
+    
+}
+
+#MainL{
+    position: relative;
+    left: -10%;
+    bottom: 208%;
+    list-style-type: none;
+    font-size: 15px;
+}
+
+
+
+
+#sub{
+
+position: relative;
+bottom: 270%;
+left: 80%;
+color: white;
+
+
+
+
+
+}
+
+
+
+    input[type=text]{
+
+        position: relative;
+        background-color: #2B2B39;
+        border-radius: 5px;
+        bottom: 50%;
+        left: 0%;
+
+    }
+
+    input[type="button"]{
+
+        position: relative;
+        bottom:10%;
+
+
+
+    }
+
+    #barrafooter{
+
+        position: relative;
+        bottom: 240%;
+        height: 25%;
+        background-color:#20202D;
+        
+    }
+
+    #logofooter{
+
+    position: relative;
+    top:27%;
+    right:2% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    }
+
+    #besnik{
+
+     color:white;
+     position: relative;
+     bottom: 15%;
+     left: 7%;
+
+
+
+    }
+
+    #redes li{
+
+      
+        position: relative;
+        left:75% ;
+        bottom: 7vh;
+        list-style-type: none;
+        display: inline;
+        color: #FFFFFF;
+    }
