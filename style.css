@@ -184,6 +184,396 @@ span{
    color: #171648;
    top: 200%;
 }
+.quadros{
+    display: flex;
+    position:relative;
+    height: 30vw;
+    font-size: larger;
+   
+    background-color: #F1F6FD;
+   
+    
+}
+#quadro2{
+    width: 27vw;
+    height: 28vw;
+    background: #FFFFFF;
+    border-radius: 5%;
+    position: absolute;
+    top: 50%;
+    left: 48%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+   
+
+  
+   
+}
+#quadro1{
+    width: 27vw;
+    height: 28vw;
+    background: #FFFFFF;
+    border-radius: 5%;
+    position: absolute;
+    top: 50%;
+    left: 18%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+    
+    
+ 
+}
+
+#invi{
+    width: 27vw;
+    height: 28vw;
+    background: #F1F6FD;
+    border-radius: 5%;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+#discover{
+    width: 15vw;
+    height: 5vw;
+    background: #217BF4;
+    border-radius: 14px;
+    position: absolute;
+    top: 72%;
+    left: 74%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+
+}
+#star{
+    bottom: -11%;
+    left:10%;
+    position: relative;
+
+}
+#nota{
+    
+    bottom: -1%;
+    left:25%;
+    position: relative;
+    color:#0A093D;
+    
+    
+
+}
+#people{
+    bottom: -10%;
+    left:5%;
+    position: relative;
+}
+#membros{
+    bottom: 4%;
+    position: relative;
+    left:20%;
+   
+    
+
+}
+#text1a{
+    bottom: 1%;
+    position: relative;
+    left:10%;
+    color:#8C8C8C;
+    font-weight: 300;
+ 
+}
+#link1{
+    bottom: -20%;
+    position: relative;
+    left:10%;
+    color:#217BF4;
+
+
+}
+#trofeu{
+    bottom: -11%;
+    left:10%;
+    position: relative;
+
+}
+#Awards{
+    bottom: -1%;
+    left:25%;
+    position: relative;
+
+    color:#0A093D;
+}
+#github{
+    bottom: -11%;
+    left:8%;
+    position: relative;
+    font-weight: 300;
+}
+#git{
+    bottom: 4%;
+    position: relative;
+    left:20%;
+    color: #5D5B70;
+    font-weight: 300;
+    
+
+}
+#text2a{
+    bottom: 1%;
+    position: relative;
+    left:10%;
+    color:#8C8C8C;
+    font-weight: 300;
+   
+}
+#link2{
+    bottom: -20%;
+    position: relative;
+    left:10%;
+    font-weight: 300;
+    
+}
+#subtext{
+    bottom: 2%;
+    position: relative;
+    color:#217BF4;
+    font-weight: 300;
+    
+}
+#title{
+    bottom: 6%;
+    position: relative;
+   color: #0A093D;
+   
+}
+#text3a{
+    bottom: 5%;
+    position: relative;
+    color: #656464;
+    font-weight: 300;
+    
+    
+}
+#discoverme{
+    bottom: -5%;
+    text-align: center;
+    position: relative;
+    color:#FFFFFF;
+   
+}
+#azul{
+    color:#217BF4;
+}
+.retangulo {
+    display: flex;
+    width: 100vw;
+    height: 110vh;
+    background-color: #F1F6FD;
+  }
+  
+  #ret1 {
+    display: flex;
+    width: 130%;
+    height: 20%;
+    border-radius: 1vh;
+    background: #FFFFFF;
+    position: relative;
+    position: relative;
+    bottom: -25%;
+    left: 40%;
+  }
+  
+  #ret2 {
+    display: flex;
+    width: 130%;
+    height: 20%;
+    border-radius: 1vh;
+    background: #FFFFFF;
+    position: relative;
+    position: relative;
+    bottom: -30%;
+    left: 40%;
+  }
+  
+  #ret3 {
+    display: flex;
+    width: 130%;
+    height: 20%;
+    border-radius: 1vh;
+    background: #FFFFFF;
+    position: relative;
+    position: relative;
+    bottom: -35%;
+    left: 40%;
+  }
+  
+  #ret4 {
+    display: flex;
+    width: 130%;
+    height: 20%;
+    border-radius: 1vh;
+    background: #FFFFFF;
+    position: relative;
+    position: relative;
+    bottom: 35%;
+    left: 190%;
+  }
+  
+  #ret5 {
+    display: flex;
+    width: 130%;
+    height: 20%;
+    border-radius: 1vh;
+    background: #FFFFFF;
+    position: relative;
+    position: relative;
+    bottom: 30%;
+    left: 190%;
+  }
+  
+  #ret6 {
+    display: flex;
+    width: 130%;
+    height: 20%;
+    border-radius: 1vh;
+    background: #FFFFFF;
+    position: relative;
+    position: relative;
+    bottom: 25%;
+    left: 190%;
+  }
+  
+  #subtitulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -105vh;
+    font-size: small;
+    color: #217BF4;
+  }
+  
+  #titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top:-110vh;
+    font-size: larger;
+    color: #0A093D;
+  }
+  
+  #coment {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top:-115vh;
+    font-size: small;
+    color: #656464;
+  }
+  
+  #icon1 {
+    position: relative;
+    bottom: -10%;
+  }
+  
+  #icon2 {
+    position: relative;
+    bottom: -10%;
+  }
+  
+  #icon3 {
+    position: relative;
+    bottom: -10%;
+  }
+  
+  #icon4 {
+    position: relative;
+    bottom: -10%;
+  }
+  
+  #icon5 {
+    position: relative;
+    bottom: -10%;
+  }
+  
+  #icon6 {
+    position: relative;
+    bottom: -10%;
+  }
+  
+  h2 {
+    color: #2F2C4A;
+  }
+  
+  h4 {
+    font-size: medium;
+    color: #656464;
+  }
+  
+  #members {
+    position: relative;
+    bottom: -5%;
+  }
+  
+  #Forum {
+    position: relative;
+    bottom: -5%;
+  }
+  
+  #List {
+    position: relative;
+    bottom: -5%;
+  }
+  
+  #Groups {
+    position: relative;
+    bottom: -5%;
+  }
+  
+  #Custom {
+    position: relative;
+    bottom: -5%;
+  }
+  
+  #Scroll {
+    position: relative;
+    bottom: -5%;
+  }
+  
+  #text1 {
+    position: relative;
+    bottom: 8%;
+  }
+  
+  #text2 {
+    position: relative;
+    bottom: 8%;
+  }
+  
+  #text3 {
+    position: relative;
+    bottom: 8%;
+  }
+  
+  #text4 {
+    position: relative;
+    bottom: 8%;
+  }
+  
+  #text5 {
+    position: relative;
+    bottom: 8%;
+  }
+  
+  #text6 {
+    position: relative;
+    bottom: 8%;
+  }
 
 
 
