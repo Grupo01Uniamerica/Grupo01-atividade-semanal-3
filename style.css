@@ -255,10 +255,11 @@ span{
 }
 #nota{
     
-    bottom: -1%;
+    bottom: 2%;
     left:25%;
     position: relative;
     color:#0A093D;
+    font-size: 30px;
     
     
 
@@ -269,26 +270,29 @@ span{
     position: relative;
 }
 #membros{
-    bottom: 4%;
+    bottom: 9%;
     position: relative;
-    left:20%;
-   
+    left:30%;
+    font-size: 30px;
+    color: #5D5B70;
     
 
 }
 #text1a{
-    bottom: 1%;
+    top: -6%;
     position: relative;
-    left:10%;
+    left:11%;
     color:#8C8C8C;
     font-weight: 300;
+    font-size: 24px;
  
 }
 #link1{
-    bottom: -20%;
+    bottom: -5%;
     position: relative;
-    left:10%;
+    left:11%;
     color:#217BF4;
+    font-size: 24px;
 
 
 }
@@ -296,43 +300,46 @@ span{
     bottom: -11%;
     left:10%;
     position: relative;
-
+    
 }
 #Awards{
-    bottom: -1%;
+    bottom: 2%;
     left:25%;
     position: relative;
+    font-size: 30px;
 
     color:#0A093D;
 }
 #github{
-    bottom: -11%;
-    left:8%;
+    bottom: -10%;
+    left:5%;
     position: relative;
     font-weight: 300;
 }
 #git{
-    bottom: 4%;
+    top: -10%;
     position: relative;
     left:20%;
     color: #5D5B70;
     font-weight: 300;
+    font-size: 30px;
     
 
 }
 #text2a{
-    bottom: 1%;
+    bottom: 6.5%;
     position: relative;
     left:10%;
     color:#8C8C8C;
-    font-weight: 300;
+    font-size: 24px;
    
 }
 #link2{
-    bottom: -20%;
+   
     position: relative;
     left:10%;
-    font-weight: 300;
+    bottom: -5%;
+    font-size: 24px;
     
 }
 #subtext{
@@ -357,7 +364,7 @@ span{
     
 }
 #discoverme{
-    bottom: -5%;
+    bottom: -16%;
     text-align: center;
     position: relative;
     color:#FFFFFF;
@@ -382,7 +389,7 @@ span{
     position: relative;
     position: relative;
     bottom: -25%;
-    left: 40%;
+    left: 90%;
   }
   
   #ret2 {
@@ -394,7 +401,7 @@ span{
     position: relative;
     position: relative;
     bottom: -30%;
-    left: 40%;
+    left: 90%;
   }
   
   #ret3 {
@@ -406,7 +413,7 @@ span{
     position: relative;
     position: relative;
     bottom: -35%;
-    left: 40%;
+    left: 90%;
   }
   
   #ret4 {
@@ -418,7 +425,7 @@ span{
     position: relative;
     position: relative;
     bottom: 35%;
-    left: 190%;
+    left: 230%;
   }
   
   #ret5 {
@@ -430,7 +437,7 @@ span{
     position: relative;
     position: relative;
     bottom: 30%;
-    left: 190%;
+    left: 230%;
   }
   
   #ret6 {
@@ -442,7 +449,7 @@ span{
     position: relative;
     position: relative;
     bottom: 25%;
-    left: 190%;
+    left: 230%;
   }
   
   #subtitulo {
@@ -581,13 +588,18 @@ span{
     
     
     font-size: 2.5vh;
-    color:#217BF4;
     position: relative;
-    top: 20vh;
+    top: -10vh;
     display: flex;
     align-items: center;
     justify-content: center;
     
+}
+
+#txtvalu{
+
+    color:#217BF4;
+
 }
 
 #activemembers{
@@ -601,7 +613,7 @@ span{
   
     align-items: center;
     justify-content: center;
-    top: 5vh;
+    top: -25vh;
 
  
    
@@ -614,7 +626,7 @@ span{
     align-items: center;
     justify-content: center;
     text-align: center;
-    bottom: 5vh;
+    bottom: 35vh;
 
 }
 
@@ -633,7 +645,7 @@ height: 5vw;
     height: 8vh;
     background: #f2f7fe;
     
-    bottom: 2vh;
+    bottom: 32vh;
     left: 71vh;
     border-radius: 20px;
     
@@ -642,7 +654,7 @@ height: 5vw;
 #txtopc{
 
 position: relative;
-word-spacing: 13vh;
+word-spacing: 11vh;
 left:3vh;
 top:1vh;
 }
@@ -651,8 +663,9 @@ top:1vh;
 
     display: flex;
     width: 71.5vw;
-    height: 25vw;
-
+    height: 10vw;
+    position: relative;
+    
 
 
 }
@@ -664,9 +677,12 @@ top:1vh;
     
     width: 30vh;
     height: 30vh;
+    
+    border-width:5%;
+    border: 1px solid #f9f9f9;
     background: #FFFFFF;
     
-    bottom: 2vh;
+    bottom: 32vh;
     left:20vh;
     border-radius: 20px;
 
@@ -710,11 +726,13 @@ position:relative;
     
     width: 30vh;
     height: 30vh;
-    background: #FFFFFF
-    ;
+    background: #FFFFFF;
+    border-width: 5%;
+    border: 1px solid #f9f9f9;
     
-    bottom: 2vh;
-    left:30vh;
+    
+    bottom: 32vh;
+    left: 30vh;
     border-radius: 20px;
 
 }
@@ -755,10 +773,11 @@ position:relative;
     
     width: 30vh;
     height: 30vh;
-    background: #FFFFFF
-    ;
+    background: #FFFFFF;
+    border-width:5%;
+    border: 1px solid #f9f9f9;
     
-    bottom: 2vh;
+    bottom: 32vh;
     left:40vh;
     border-radius: 20px;
 
@@ -802,10 +821,11 @@ position:relative;
     
     width: 30vh;
     height: 30vh;
-    background: #FFFFFF
-    ;
+    background: #FFFFFF;
+    border-width:5%;
+    border: 1px solid #f9f9f9;
     
-    bottom: 2vh;
+    bottom: 32vh;
     left:50vh;
     border-radius: 20px;
 
@@ -913,7 +933,7 @@ left: 2.5vh;
 #celll{
     position: relative;
     left:60%;
-    bottom:65.9%;
+    bottom:70%;
     width: 55vh;
 
 }
@@ -1138,7 +1158,7 @@ footer{
 #Resources{
     position: relative;
     right: 30%;
-    bottom:68%;
+    bottom:65%;
     list-style-type: none;
     font-size: 15px;
 }
@@ -1160,7 +1180,7 @@ footer{
 #Community{
     position: relative;
     right: 20%;
-    top: -147.6%;
+    top: -142%;
     list-style-type: none;
     font-size: 15px;
 }
@@ -1180,7 +1200,7 @@ footer{
 #MainL{
     position: relative;
     left: -10%;
-    bottom: 226.9%;
+    bottom: 219%;
     list-style-type: none;
     font-size: 15px;
 }
@@ -1226,7 +1246,7 @@ color: white;
 
         position: relative;
         bottom: 259%;
-        height: 25%;
+        height: 40%;
         background-color:#20202D;
         
     }
@@ -1234,7 +1254,7 @@ color: white;
     #logofooter{
 
     position: relative;
-    top:27%;
+    top:40%;
     right:2% ;
     display: flex;
     justify-content: center;
@@ -1247,20 +1267,73 @@ color: white;
 
      color:white;
      position: relative;
-     bottom: 15%;
+     bottom: -10%;
      left: 7%;
 
 
 
     }
 
-    #redes li{
+    #redes{
 
       
         position: relative;
         left:75% ;
-        bottom: 7vh;
+        bottom: 25%;
         list-style-type: none;
         display: inline;
         color: #FFFFFF;
+    }
+
+    .btn{
+        position: relative;
+        display: flex-start;
+        bottom: 89%;
+        left: 9%;
+        padding: 1% 0.5%;
+        width: 160px;
+        color: #217BF4;
+        background: #e7f1fe ;
+        border-radius: 14px;
+    }
+    
+    .btn02{
+        position: relative;
+        display: flex-start;
+        left: 24%;
+        top: -57.5%;
+        border-radius: 14px;
+        padding: 1.7% 2.5%;
+        color: #217BF4;
+        width: 99px;
+        border-width: 5%;
+        border: 1px solid #217BF4;
+    
+    
+    }
+    #botaohome{
+        position: relative;
+        background: #217BF4;
+        padding-top: 1.9% ;
+        padding-bottom: 1.9%;
+        padding-left: 3%;
+        border-radius: 14px;
+        width: 140px;
+        left: 9%;
+        bottom: 17%
+    
+    }
+
+    #Act{
+
+        position:relative;
+        left: 60%;
+        bottom: 2.7vw;
+        background-color:#217BF4 ;
+        width: 50px;
+        padding: 4% 10%;
+        border-radius: 10px;
+        color: white;
+
+
     }
